@@ -20,7 +20,11 @@ The following **bonus** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+* [ ] Don't Allow whitespaces at the end of a todo item
+* [ ] Create an **undo** button
+* [ ] Allow color coding for todo items to designate priority
+
 
 ## Video Walkthrough
 
@@ -33,6 +37,8 @@ GIF created with [LICEcap](https://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+It was hard to get the hang of how positioning objects in the design window works, I had to experiment a bit to get it right by playing with the code of the .xml. And definitevely the hardest part to understand was the RecyclerView, the implementation of the ItemsAdapter class was a bit confusing to me and led me to get some code errors, but I was able to disect them using the debug tool and fix them.
 
 ## License
 
